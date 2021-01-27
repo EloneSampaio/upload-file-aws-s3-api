@@ -1,0 +1,18 @@
+Dependências em produção:
+
+aws-sdk = kit de desenvolvimento da AWS, api que utilizamos para lidar com seus serviços;
+dotenv = lib que carrega as variáveis de ambiente para aplicação — arquivo .env;
+express = servidor WEB que recebe requisições HTTP;
+mongoose = Object Data Modeling (ODM) faz o mapeamento do Objeto (Schema) JavaScript em uma Coleção no MongoDB;
+morgan = middleware que faz o log de requisições HTTP de uma maneira mais amigável para o desenvolvedor;
+multer = lib que lida com upload de arquivos;
+multer-s3 = lib que lida com upload de arquivos no S3/AWS.
+Dependências em ambiente de desenvolvimento:
+
+nodemon = para fazer o reload da aplicação assim que é feita uma alteração no código, exceto arquivos .env.
+cors = habilita o front end consumir nosso back end (API) que estamos construindo.
+
+scripts:
+
+dev = vai ser utilizando apenas em desenvolvimento para o nodemon monitorar as atualizações e fazer reload do app;
+start = vai ser utilizado em produção, para rodar a aplicação.
